@@ -9,7 +9,7 @@ public class SingleInheritanceMain {
 		Citizen eTwo= new Employee(54565765,6567776,"Indian", 131,"Ravi","tester", 50000.00);
 		System.out.println(eTwo);
 		
-		//Hierarchial inheritance
+		//Hierarchical inheritance
 		Citizen sOne = new Student(12564343,23454654,"Indian",101,"Rohith", "CSE", "Rahul");
 		System.out.println(sOne);
 		
