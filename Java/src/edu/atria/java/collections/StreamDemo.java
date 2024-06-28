@@ -38,9 +38,8 @@ public class StreamDemo {
 		System.out.println("-----------------");
 		int sum=numList.stream().reduce((n1, n2)->n1+n2).get();
 		System.out.println("sum is "+sum);
-	
 		
- 
+		int max=numList.stream().reduce((a, b)->a>b?a:b).get();
+		System.out.println("Maximum is "+max);
 	}
-
 }
